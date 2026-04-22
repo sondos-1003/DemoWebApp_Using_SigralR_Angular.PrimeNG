@@ -1,0 +1,199 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "G:\\repo_moved\\SignalRProjectTutorial\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{443A809A-4BBE-15FE-2DC1-12BF2E59F20A}|SignalRProjectTutorial\\SignalRProjectTutorial.csproj|g:\\repo_moved\\signalrprojecttutorial\\signalrprojecttutorial\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{443A809A-4BBE-15FE-2DC1-12BF2E59F20A}|SignalRProjectTutorial\\SignalRProjectTutorial.csproj|solutionrelative:signalrprojecttutorial\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{443A809A-4BBE-15FE-2DC1-12BF2E59F20A}|SignalRProjectTutorial\\SignalRProjectTutorial.csproj|g:\\repo_moved\\signalrprojecttutorial\\signalrprojecttutorial\\hubs\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{443A809A-4BBE-15FE-2DC1-12BF2E59F20A}|SignalRProjectTutorial\\SignalRProjectTutorial.csproj|solutionrelative:signalrprojecttutorial\\hubs\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{443A809A-4BBE-15FE-2DC1-12BF2E59F20A}|SignalRProjectTutorial\\SignalRProjectTutorial.csproj|g:\\repo_moved\\signalrprojecttutorial\\signalrprojecttutorial\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{443A809A-4BBE-15FE-2DC1-12BF2E59F20A}|SignalRProjectTutorial\\SignalRProjectTutorial.csproj|solutionrelative:signalrprojecttutorial\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{443A809A-4BBE-15FE-2DC1-12BF2E59F20A}|SignalRProjectTutorial\\SignalRProjectTutorial.csproj|g:\\repo_moved\\signalrprojecttutorial\\signalrprojecttutorial\\wwwroot\\js\\chat.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{443A809A-4BBE-15FE-2DC1-12BF2E59F20A}|SignalRProjectTutorial\\SignalRProjectTutorial.csproj|solutionrelative:signalrprojecttutorial\\wwwroot\\js\\chat.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{443A809A-4BBE-15FE-2DC1-12BF2E59F20A}|SignalRProjectTutorial\\SignalRProjectTutorial.csproj|g:\\repo_moved\\signalrprojecttutorial\\signalrprojecttutorial\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{443A809A-4BBE-15FE-2DC1-12BF2E59F20A}|SignalRProjectTutorial\\SignalRProjectTutorial.csproj|solutionrelative:signalrprojecttutorial\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{443A809A-4BBE-15FE-2DC1-12BF2E59F20A}|SignalRProjectTutorial\\SignalRProjectTutorial.csproj|g:\\repo_moved\\signalrprojecttutorial\\signalrprojecttutorial\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{443A809A-4BBE-15FE-2DC1-12BF2E59F20A}|SignalRProjectTutorial\\SignalRProjectTutorial.csproj|solutionrelative:signalrprojecttutorial\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{443A809A-4BBE-15FE-2DC1-12BF2E59F20A}|SignalRProjectTutorial\\SignalRProjectTutorial.csproj|g:\\repo_moved\\signalrprojecttutorial\\signalrprojecttutorial\\infrastructure\\querystringuseridprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{443A809A-4BBE-15FE-2DC1-12BF2E59F20A}|SignalRProjectTutorial\\SignalRProjectTutorial.csproj|solutionrelative:signalrprojecttutorial\\infrastructure\\querystringuseridprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{443A809A-4BBE-15FE-2DC1-12BF2E59F20A}|SignalRProjectTutorial\\SignalRProjectTutorial.csproj|g:\\repo_moved\\signalrprojecttutorial\\signalrprojecttutorial\\signalrprojecttutorial.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{443A809A-4BBE-15FE-2DC1-12BF2E59F20A}|SignalRProjectTutorial\\SignalRProjectTutorial.csproj|solutionrelative:signalrprojecttutorial\\signalrprojecttutorial.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 100,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 18,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0174dea2-fdbe-4ef1-8f99-c0beae78880f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "G:\\repo_moved\\SignalRProjectTutorial\\SignalRProjectTutorial\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "SignalRProjectTutorial\\Properties\\launchSettings.json",
+              "ToolTip": "G:\\repo_moved\\SignalRProjectTutorial\\SignalRProjectTutorial\\Properties\\launchSettings.json",
+              "RelativeToolTip": "SignalRProjectTutorial\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-22T12:38:10.901Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "QueryStringUserIdProvider.cs",
+              "DocumentMoniker": "G:\\repo_moved\\SignalRProjectTutorial\\SignalRProjectTutorial\\Infrastructure\\QueryStringUserIdProvider.cs",
+              "RelativeDocumentMoniker": "SignalRProjectTutorial\\Infrastructure\\QueryStringUserIdProvider.cs",
+              "ToolTip": "G:\\repo_moved\\SignalRProjectTutorial\\SignalRProjectTutorial\\Infrastructure\\QueryStringUserIdProvider.cs",
+              "RelativeToolTip": "SignalRProjectTutorial\\Infrastructure\\QueryStringUserIdProvider.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAxwBkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-21T15:29:53.063Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "chat.js",
+              "DocumentMoniker": "G:\\repo_moved\\SignalRProjectTutorial\\SignalRProjectTutorial\\wwwroot\\js\\chat.js",
+              "RelativeDocumentMoniker": "SignalRProjectTutorial\\wwwroot\\js\\chat.js",
+              "ToolTip": "G:\\repo_moved\\SignalRProjectTutorial\\SignalRProjectTutorial\\wwwroot\\js\\chat.js",
+              "RelativeToolTip": "SignalRProjectTutorial\\wwwroot\\js\\chat.js",
+              "ViewState": "AgIAANIAAAAAAAAAAAAUwNwAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2026-04-14T08:12:20.059Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "G:\\repo_moved\\SignalRProjectTutorial\\SignalRProjectTutorial\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "SignalRProjectTutorial\\Pages\\Index.cshtml",
+              "ToolTip": "G:\\repo_moved\\SignalRProjectTutorial\\SignalRProjectTutorial\\Pages\\Index.cshtml",
+              "RelativeToolTip": "SignalRProjectTutorial\\Pages\\Index.cshtml",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAxwEYAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-14T08:09:36.255Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ChatHub.cs",
+              "DocumentMoniker": "G:\\repo_moved\\SignalRProjectTutorial\\SignalRProjectTutorial\\Hubs\\ChatHub.cs",
+              "RelativeDocumentMoniker": "SignalRProjectTutorial\\Hubs\\ChatHub.cs",
+              "ToolTip": "G:\\repo_moved\\SignalRProjectTutorial\\SignalRProjectTutorial\\Hubs\\ChatHub.cs",
+              "RelativeToolTip": "SignalRProjectTutorial\\Hubs\\ChatHub.cs",
+              "ViewState": "AgIAAH8AAAAAAAAAAAAiwDkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T08:03:40.679Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "G:\\repo_moved\\SignalRProjectTutorial\\SignalRProjectTutorial\\Pages\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "SignalRProjectTutorial\\Pages\\Index.cshtml.cs",
+              "ToolTip": "G:\\repo_moved\\SignalRProjectTutorial\\SignalRProjectTutorial\\Pages\\Index.cshtml.cs",
+              "RelativeToolTip": "SignalRProjectTutorial\\Pages\\Index.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-21T15:46:13.078Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "G:\\repo_moved\\SignalRProjectTutorial\\SignalRProjectTutorial\\Program.cs",
+              "RelativeDocumentMoniker": "SignalRProjectTutorial\\Program.cs",
+              "ToolTip": "G:\\repo_moved\\SignalRProjectTutorial\\SignalRProjectTutorial\\Program.cs",
+              "RelativeToolTip": "SignalRProjectTutorial\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T08:07:48.295Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SignalRProjectTutorial.csproj",
+              "DocumentMoniker": "G:\\repo_moved\\SignalRProjectTutorial\\SignalRProjectTutorial\\SignalRProjectTutorial.csproj",
+              "RelativeDocumentMoniker": "SignalRProjectTutorial\\SignalRProjectTutorial.csproj",
+              "ToolTip": "G:\\repo_moved\\SignalRProjectTutorial\\SignalRProjectTutorial\\SignalRProjectTutorial.csproj",
+              "RelativeToolTip": "SignalRProjectTutorial\\SignalRProjectTutorial.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-14T08:00:52.7Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+<p-toast key="global" position="top-right"></p-toast>
+<div class="chat-container">
+  <div class="p-fluid grid">
+    <div class="field col-6">
+      <label for="user" style="display: block;font-style: italic;">Enter User  :</label>
+      <input id="user" pInputText [(ngModel)]="userId" />
+    </div>
+    <div class="field col-6 align-end">
+      <button class="btn-primary" type="button"  icon="pi pi-sign-in" (click)="connect()" [disabled]="connected">Connect</button>
+    </div>
+  </div>
+
+  <div class="grid mt-3">
+    <div class="col-4">
+      <p-panel header="Groups Section "  style="color: red;">
+        <div class="p-fluid">
+          <div class="p-inputgroup">
+            <input pInputText placeholder="Enter Group name" style="color: rgb(116, 114, 114);" [(ngModel)]="groupName" />
+            <button  class="btn-primary" type="button" icon="pi pi-sign-in" (click)="joinGroup()">Enter</button>
+            <button  type="button" icon="pi pi-sign-out" class="btn-danger" (click)="leaveGroup()">Leave The group</button>
+          </div>
+        </div>
+
+        <h5 class="mt-2">Members List: </h5>
+        <ul class="member-list">
+          <li *ngFor="let m of groupMembers">{{m}}</li>
+        </ul>
+      </p-panel>
+    </div>
+
+    <div class="col-4">
+      <p-panel header="Group Chat"style="color: red;">
+        <div class="chat-window">
+          <div *ngFor="let gm of groupMessages" class="chat-line">{{gm}}</div>
+        </div>
+        <div class="p-inputgroup mt-7">
+          <input #groupMsg pInputText placeholder="Enter here Message to group" style="color: rgb(116, 114, 114);" />
+          <button class="btn-primary" style="margin-left: 40px;margin-bottom: 30px;"  type="button"   (click)="sendGroup(groupMsg)">Send</button>
+        </div>
+      </p-panel>
+    </div>
+
+    <div class="col-4 justify-content-center">
+      <p-panel  header="Private Chat" style="color: red;">
+        <div class="p-fluid">
+          <input pInputText placeholder="Enter Recipient user id" style="color: rgb(116, 114, 114);"[(ngModel)]="privateTo" />
+          <div class="chat-window mt-2">
+            <div *ngFor="let pm of privateMessages" class="chat-line">{{pm}}</div>
+          </div>
+          <div class="p-inputgroup mt-2">
+            <input #privateMsg pInputText style="color: rgb(116, 114, 114);" placeholder="Enter private message" />
+            <button class="btn-primary" type="button"  (click)="sendPrivate(privateMsg)">Send</button>
+          </div>
+        </div>
+      </p-panel>
+
+      <p-panel header="Support Section" style="margin-top:30px ;color: red;">
+        <div>
+          <button class="btn-primary " style="margin-top: 40px;" icon="pi pi-headset" (click)="requestSupport()">Click to Contact Support</button>
+          <div *ngIf="supportRoom" class="mt-2">
+            <small>Room: {{supportRoom}}</small>
+            
+            <small style="font-family: 'Times New Roman', Times, serif;">----- Leave your WhatsApp number so we can contact you ASAP</small>
+            <div class="chat-window mt-2">
+              <div *ngFor="let sm of supportMessages" class="chat-line">{{sm}}</div>
+            </div>
+            <div class="p-inputgroup mt-2">
+              <input #supportMsg pInputText placeholder="Message to support" />
+              <button class="btn-primary" (click)="sendSupport(supportMsg)">Send</button>
+            </div>
+          </div>
+        </div>
+      </p-panel>
+      <button class="btn-primary" (click)="testToast()">Test Toast</button>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,71 @@
+﻿@page
+@model IndexModel
+<div class="container p-3">
+    <div class="row mb-2">
+        <div class="col-3">
+            <label>User</label>
+            <input class="form-control" type="text" id="userInput" placeholder="Enter user id (e.g. alice)" />
+        </div>
+        <div class="col-2 d-flex align-items-end">
+            <button class="btn btn-primary" id="connectButton">Connect</button>
+        </div>
+        <div class="col-7 text-end">
+            <div id="notificationArea"></div>
+        </div>
+    </div>
+
+    <div class="row mb-3">
+        <div class="col-4">
+            <h5>Groups</h5>
+            <div class="input-group mb-2">
+                <input id="groupInput" class="form-control" placeholder="Group name" />
+                <button id="joinGroupBtn" class="btn btn-outline-success">Join</button>
+                <button id="leaveGroupBtn" class="btn btn-outline-danger">Leave</button>
+            </div>
+            <div>
+                <strong>Current Group:</strong> <span id="currentGroup">-</span>
+            </div>
+            <div class="mt-2">
+                <strong>Members</strong>
+                <ul id="groupMembers" class="list-group list-group-flush"></ul>
+            </div>
+        </div>
+
+        <div class="col-8">
+            <h5>Group Chat</h5>
+            <ul id="groupMessages" class="list-group mb-2" style="height:300px;overflow:auto;"></ul>
+            <div class="input-group">
+                <input id="groupMessageInput" class="form-control" placeholder="Message to group" />
+                <button id="sendGroupBtn" class="btn btn-primary">Send</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="row mb-3">
+        <div class="col-6">
+            <h5>Private Chat</h5>
+            <div class="input-group mb-2">
+                <input id="privateTo" class="form-control" placeholder="Recipient user id" />
+                <input id="privateMessageInput" class="form-control" placeholder="Message" />
+                <button id="sendPrivateBtn" class="btn btn-secondary">Send</button>
+            </div>
+            <ul id="privateMessages" class="list-group" style="height:200px;overflow:auto;"></ul>
+        </div>
+
+        <div class="col-6">
+            <h5>Support</h5>
+            <button id="helpBtn" class="btn btn-warning">Contact Support</button>
+            <div id="supportPanel" style="display:none" class="mt-2">
+                <div><strong>Support Room:</strong> <span id="supportRoom">-</span></div>
+                <ul id="supportMessages" class="list-group mb-2" style="height:200px;overflow:auto;"></ul>
+                <div class="input-group">
+                    <input id="supportMessageInput" class="form-control" placeholder="Message to support" />
+                    <button id="sendSupportBtn" class="btn btn-warning">Send</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="~/js/signalr/dist/browser/signalr.js"></script>
+<script src="~/js/chat.js"></script>
