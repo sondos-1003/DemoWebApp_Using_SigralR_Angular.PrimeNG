@@ -1,78 +1,108 @@
-#  Real-Time Chat Application
-## A real-time chat application built using .NET Web API and Angular, leveraging SignalR for instant communication and PrimeNG for a modern UI experience.
+# Real-Time Chat Application
 
-# 🏗️ Architecture
+A real-time chat application built using **.NET Web API** and **Angular**, leveraging **SignalR** for instant communication and **PrimeNG** for a modern UI experience.
 
-## Backend: .NET Web API
-## Frontend: Angular
-## Real-Time Engine: SignalR (Hub / ChatHub)
-## UI Library: PrimeNG
+---
 
-#  Backend – .NET (SignalR Hub)
+## 🏗️ Architecture
 
-## The backend is focused on enabling real-time communication using SignalR.
+- **Backend:** .NET Web API
+- **Frontend:** Angular
+- **Real-Time Engine:** SignalR (Hub / ChatHub)
+- **UI Library:** PrimeNG
 
-#🔹 Core Concept
+---
 
-## The application uses a SignalR Hub (ChatHub) to manage connections and messaging between clients.
+## Backend – .NET (SignalR Hub)
 
-# 🔹 Responsibilities
-## Handle client connections and disconnections
-## Broadcast messages to all connected users in the sam group
-## Send messages to specific users(private chat) or groups
+The backend is focused on enabling real-time communication using **SignalR**.
 
-# 🔄 SignalR (ChatHub)
+### 🔹 Core Concept
 
-## SignalR is the core of this application.
+The application uses a **SignalR Hub (ChatHub)** to manage connections and messaging between clients.
 
-##🔹 What It Does
-Maintains persistent connections (WebSockets when possible)
-Enables server-to-client communication instantly
-Supports multiple clients connected at the same time
-##🔹 Chat Features
-## Send messages in real-time
-##  Receive messages instantly without refresh
-##  Broadcast to all users or specific groups
-##  Handle user join/leave events
-## PROJECT Features
-## Notifications
-## Real-time notifications sent from the server to the client.
-## Chat between users
-## One-to-one real-time chat between two users.
-## Group chat
-## Real-time chat inside a group/channel/room.
-## Help icon with support:
-## A help/support feature where the user can communicate with support in real time.
+### 🔹 Responsibilities
 
+- Handle client connections and disconnections
+- Broadcast messages to all connected users in the same group
+- Send messages to specific users (private chat) or groups
 
-# 💻 Frontend – Angular
+---
 
-## Angular handles the client-side chat interface and real-time interaction.
+## 🔄 SignalR (ChatHub)
 
-## 🔹 Responsibilities
-## Connect to SignalR Hub
-## Send messages to the server
-## Receive and display messages instantly
-## Manage UI state
+SignalR is the core of this application.
 
-# SignalR Integration in Angular
+### 🔹 What It Does
 
-## Angular connects to the backend using SignalR client.
+- Maintains persistent connections (**WebSockets** when possible)
+- Enables server-to-client communication instantly
+- Supports multiple clients connected at the same time
 
-##🔹 Flow
-## Establish connection to ChatHub
-## Listen for incoming messages
-## Update UI using Signals
-## Send messages to the server
+### 🔹 Chat Features
 
-# (UI) PrimeNG
-## PrimeNG is used to build a clean and interactive chat interface.
+- Send messages in real-time
+- Receive messages instantly without refresh
+- Broadcast to all users or specific groups
+- Handle user join/leave events
 
-## 🔹 Components Used
-## Input fields for typing messages
-## Buttons for sending messages
-## Message panels / cards
-## Toast notifications (optional)
-## 🔹 Benefits
-## Fast UI development
-## Responsive design
+---
+
+## Project Features
+
+### Notifications
+Real-time notifications sent from the server to the client.
+
+### Chat Between Users
+One-to-one real-time chat between two users.
+
+### Group Chat
+Real-time chat inside a group/channel/room.
+
+### Help Icon with Support
+A help/support feature where the user can communicate with support in real time.
+
+---
+
+## 💻 Frontend – Angular
+
+Angular handles the client-side chat interface and real-time interaction.
+
+### 🔹 Responsibilities
+
+- Connect to SignalR Hub
+- Send messages to the server
+- Receive and display messages instantly
+- Manage UI state
+
+---
+
+## SignalR Integration in Angular
+
+Angular connects to the backend using the **SignalR client**.
+
+### 🔹 Flow
+
+- Establish connection to ChatHub
+- Listen for incoming messages
+- Update UI using Signals
+- Send messages to the server
+
+---
+
+## 🎨 UI – PrimeNG
+
+PrimeNG is used to build a clean and interactive chat interface.
+
+### 🔹 Components Used
+
+- Input fields for typing messages
+- Buttons for sending messages
+- Message panels / cards
+- Toast notifications
+
+### 🔹 Benefits
+
+- Fast UI development
+- Responsive design
+- Modern user interface components
