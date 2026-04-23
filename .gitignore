@@ -6,6 +6,7 @@ node_modules/
 dist/
 .angular/
 coverage/
+package.json
 
 #Template for AL projects for Dynamics 365 Business Central
 #launch.json folder
